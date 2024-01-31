@@ -1,0 +1,133 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+#page-top{
+    background: black;
+}
+.color{
+    color:red
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+#rol, #editarrol,#editarfecha,
+#editartime{
+    width: 240px;
+    height: 30px;
+    outline: none;
+    border: 0.5px solid #222;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size:16px ;
+    padding-left: 10px;
+
+}
+#descripcion, #editardescripcion,
+ #ordendia,
+  #editarordendia
+  {
+    width: 240px;
+    height: 100px;
+    outline: none;
+    border: 0.5px solid #222;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size:16px ;
+    padding-left: 10px;
+}
+#ordendia{
+    white-space: pre-line;
+    word-break: break-all;
+}
+
+#msm{
+    display: none;
+}
+.alert{
+    background: #ffdb9b;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: absolute;
+    left: -60px;
+    top: 0px;
+    border-radius: 4px;
+    border-left: 8px solid #ffa502;
+
+}
+.alerta{
+    background: #c1170e;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: absolute;
+    left: -60px;
+    top: 0px;
+    border-radius: 4px;
+    border-left: 8px solid #670c25;
+    color: white;
+}
+.form{
+    width: 240px;
+    height: 30px;
+    outline: none;
+    border: 0.5px solid #222;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size:16px ;
+    padding-left: 10px; 
+}
+.modal-title{
+    margin-left: 100px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: black;
+
+}
+.modal-body{
+    margin-left:120px ;
+}
+.img{
+   position: relative;
+   left: 50px;
+}
+.modal-content{
+    background-image: url("../../img/ortografia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+#btnEnviar{
+    margin-top: 10px ;
+    width: 240px;
+
+}
+#respuesta{
+    display: none;
+}
+.foot{
+    margin-bottom: 20px;
+
+}
+.new-acc{
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    color: gray;
+    top: 20px;
+}
+.new-acc:hover{
+    color: #ff0000;
+}
